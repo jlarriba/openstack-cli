@@ -1,0 +1,25 @@
+clouds:
+  podified:
+    auth:
+      auth_url: http://keystone-internal.openstack:5000
+      password: 12345678
+      project_domain_name: Default
+      project_name: admin
+      user_domain_name: Default
+      username: admin
+    cacert: ''
+    identity_api_version: '3'
+    region_name: regionOne
+    volume_api_version: '3'
+  podified-system-admin:
+    auth:
+      auth_url: http://keystone-internal.openstack:5000
+      password: 12345678
+      system_scope: all
+      user_domain_name: Default
+      username: admin
+    cacert: ''
+    identity_api_version: '3'
+    region_name: regionOne
+    volume_api_version: '3'
+
